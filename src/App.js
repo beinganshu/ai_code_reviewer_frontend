@@ -90,7 +90,7 @@ function Home() {
               </Link>
             </li>
             <li className="nav_menu_item">
-              <a className="nav_menu_link">
+              <a href="/" className="nav_menu_link">
                 Contact Us
               </a>
             </li>

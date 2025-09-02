@@ -32,7 +32,7 @@ const App = () => {
   const handleReview = async () => {
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/review", {
+      const response = await axios.post("https://anxhu2004-ai-code-reviewer.hf.space/review", {
         language,
         code,
       });
@@ -103,3 +103,4 @@ const App = () => {
 };
 
 export default App;
+
